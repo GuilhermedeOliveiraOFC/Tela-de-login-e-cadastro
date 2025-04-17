@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Minecraft Online Login</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="/img/logo_minecraft_0Y6uKr.png" type="image/x-icon">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Login</h2>
+    <input type="email" id="loginEmail" placeholder="Email">
+    <input type="password" id="loginPassword" placeholder="Senha">
+    <button onclick="login()">Entrar</button>
+    <div class="form-usuarios">
+      <h3>Usuários Cadastrados</h3>
+      <div id="userList"></div>
+    </div>
+
+
+    <div class="form-usuarios-json">
+      <button onclick="exportarDados()">Exportar Dados</button>
+    </div>
+    
+    <div class="register-link">
+      <p>Não tem uma conta?<a href="cadastro.html">Cadastre-se!</a>
+
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
